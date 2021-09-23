@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 
-import { BsPlusSquare } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 
 function Home() {
   return (
@@ -16,10 +16,13 @@ function Home() {
           <div className="pl-4">
             <Link href="/form">
               <button className="px-6 py-3 rounded-lg border border-gray-500 shadow-lg hover:shadow">
-                <BsPlusSquare />
+                <BsArrowRight />
               </button>
             </Link>
           </div>
+        </div>
+        <div className="mt-8 w-full flex-wrap flex justify-center">
+          <p>Notes</p>
         </div>
       </div>
     </React.Fragment>
